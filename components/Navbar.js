@@ -16,7 +16,7 @@ export default function Navbar({ search }) {
           <User />
         </div>
       </div>
-      <SearchBox className="md:hidden" />
+      <SearchBox search={search} className="md:hidden" />
     </div>
   )
 }
